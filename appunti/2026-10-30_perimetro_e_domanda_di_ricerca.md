@@ -1,6 +1,6 @@
 # Perimetro e domanda di ricerca: sintesi per la chiamata con il relatore
 
-**Data:** 30 ottobre 2026 (versione aggiornata dopo la revisione dei casi)
+**Data:** 30 ottobre 2026 (versione aggiornata: casi rivisti, struttura in due parti, grafici)
 **Come è stato prodotto:** quattro agenti con ruoli diversi (architetto della RQ, sfidante dell'originalità, esploratore dei casi, esaminatore critico) hanno lavorato in due giri; poi il set di casi è stato rivisto per eliminare quelli al confine. I file completi del dibattito sono in `appunti/dibattito_agenti/`.
 
 > **Avvertenza sulle fonti.** Tutte le verifiche sono state fatte su estratti di ricerca web: in questa sessione non è stato possibile aprire le pagine originali. Prima di citare qualsiasi fatto, numero o articolo nella tesi va applicata la regola **apri, archivia, annota**: aprire la fonte originale, salvarla (Wayback Machine o PDF) con la data di accesso, annotare la pagina o il passaggio. Vale anche per questo documento.
@@ -10,6 +10,9 @@
 ## 0. In due frasi (per aprire la chiamata)
 
 > Studio come gli incumbent SaaS della creazione di artefatti digitali (Figma, Canva, Adobe Express, Grammarly) stanno cambiando il loro business model ora che gli agenti AI possono produrre gli artefatti, sia dentro i loro prodotti sia dall'esterno, per esempio ChatGPT o Claude che usano Canva o Figma. Ho trasformato la domanda da *how can* a *how are ... evolving*: la tesi osserva cosa fanno davvero le aziende, e le strategie emergono dai casi; ogni caso porta una combinazione diversa di strategie.
+
+**Struttura in una frase:**
+> La tesi ha due parti: nella prima definisco i productivity SaaS e presento i casi con il loro business model prima dell'AI; nella seconda analizzo le strategie di evoluzione, una per una, mostrando come ciascuna azienda le applica e perché.
 
 ---
 
@@ -179,67 +182,100 @@ Come si legge: nessuna strategia è esclusiva, ogni azienda ne combina diverse; 
 
 ---
 
-## 8. Indice proposto
+## 8. Struttura della tesi e grafici
+
+**Il flusso.** La Parte I descrive il "mondo di prima": cosa sono i productivity SaaS e come funzionava il business model dei casi nel 2022. La Parte II spiega cosa cambia con l'AI e come le aziende rispondono, una strategia alla volta, con il perché dentro ogni strategia.
+
+**Ricerca per caso, scrittura per parti.** La raccolta dei dati si fa caso per caso (registro delle mosse e griglia, in appendice). La tesi invece si scrive per parti: i casi nel 2022 nella Parte I, le strategie nella Parte II, ognuna con i casi dentro. Così ogni informazione compare una volta sola.
+
+### Indice proposto
 
 **Productivity SaaS in the age of agentic AI: strategic responses for business model evolution**
 *(possibile sottotitolo: Evidence from creation-oriented SaaS incumbents)*
 
 **Abstract**
 
-**1. Introduction** (circa 5 pagine)
-1.1 From generative to agentic AI: context and the "SaaSpocalypse" debate
-1.2 The puzzle: why creation-oriented SaaS open up to AI agents
-1.3 Research question and sub-questions
-1.4 Scope and expected contribution
-1.5 Structure of the thesis
+**Introduction** (circa 5 pagine)
+- Context: from generative to agentic AI and the "SaaSpocalypse" debate
+- The puzzle: why creation-oriented SaaS open up to AI agents
+- Research question, scope and contribution
+- Structure of the thesis
 
-**2. Creation-oriented productivity SaaS and their business models** (circa 12 pagine)
-2.1 SaaS as a delivery model
-2.2 Productivity software: existing taxonomies and their limits
-2.3 Creation-oriented productivity SaaS: operational definition and boundary test
-2.4 The business model framework: WHO, WHAT, HOW, ECONOMIC MODEL
-2.5 The pre-AI business model of creation-oriented SaaS (2022 baseline)
+**PART I. PRODUCTIVITY SAAS AND THEIR BUSINESS MODELS**
 
-**3. Agentic AI and the evolution of SaaS business models** (circa 12 pagine)
+**1. Defining productivity SaaS** (circa 12 pagine)
+1.1 SaaS as a delivery model
+1.2 Productivity software: existing taxonomies and their limits
+1.3 Creation-oriented productivity SaaS: operational definition
+1.4 Boundary test
+
+**2. The cases and their business models before AI** (circa 15 pagine)
+2.1 The business model framework: WHO, WHAT, HOW, ECONOMIC MODEL
+2.2 Case selection: Figma, Canva, Adobe Express, Grammarly (and Gamma as benchmark)
+2.3 Figma in 2022
+2.4 Canva in 2022
+2.5 Adobe Express in 2022
+2.6 Grammarly in 2022
+2.7 Common traits of the pre-AI business model
+
+**PART II. AI AND STRATEGIES FOR BUSINESS MODEL EVOLUTION**
+
+**3. From generative to agentic AI** (circa 12 pagine)
 3.1 Generative vs agentic AI: definitions and capabilities
 3.2 Business model innovation and adaptation
 3.3 AI and business model innovation: state of research
 3.4 Practitioner perspectives: Bain, IDC and the market debate
-3.5 Two channels of agentic production: agents inside the product, external agents using it
-3.6 Analytical framework: candidate strategies and preliminary propositions
+3.5 Two channels: agents inside the product, external agents using it
+3.6 Seven candidate strategies
 
-**4. Methodology** (circa 7 pagine)
+**4. Methodology** (circa 5 pagine)
 4.1 Research design: exploratory multiple-case study
-4.2 Population, case selection and unit of analysis
-4.3 Data sources and evidence hierarchy
-4.4 Coding scheme and analytical procedure
-4.5 Validity, reliability and limitations
+4.2 Data sources and evidence hierarchy
+4.3 Coding: from moves to business model changes (2022, 2024, 2026)
+4.4 Validity and limitations
 
-**5. Case studies** (circa 28 pagine)
-5.1 Figma
-5.2 Canva
-5.3 Adobe Express
-5.4 Grammarly
-5.5 Benchmark: Gamma as an AI-native contrast
-*(stessa struttura per ogni caso: business model nel 2022, fase generativa 2023-2024, fase agentic 2025-2026, cosa è cambiato e cosa no)*
+**5. Strategies for business model evolution** (circa 25 pagine)
+5.1 Building an own agent
+5.2 Being used by external agents
+5.3 Hosting third-party agents
+5.4 Serving proprietary context to agents
+5.5 Cost-driven hybrid monetization
+5.6 Expanding the scope
+5.7 Acquiring AI-native companies
+*(stessa struttura per ogni strategia: cos'è; come la applica ciascun caso, o perché no; perché in quella forma; cosa cambia in WHO/WHAT/HOW/ECONOMIC MODEL)*
 
-**6. Cross-case analysis and strategic responses** (circa 10 pagine)
-6.1 Roles toward AI agents and access terms
-6.2 Changes in WHO, WHAT, HOW and ECONOMIC MODEL
-6.3 Value capture and the cost of AI
-6.4 Strategy profiles: observed, reformulated, not observed
-6.5 Why profiles differ: propositions
+**6. Strategy profiles: comparing the cases** (circa 6 pagine)
+6.1 The strategy x case matrix
+6.2 Why profiles differ
+6.3 Incumbents vs an AI-native: the Gamma benchmark
+6.4 Generative vs agentic: how much each phase changed
 
-**7. Discussion and conclusions** (circa 6 pagine)
-7.1 Answer to the research question
-7.2 Theoretical contribution
-7.3 Managerial implications
-7.4 Limitations and future research
+**Conclusions** (circa 5 pagine)
+- Answer to the research question
+- Theoretical contribution and managerial implications
+- Limitations and future research
 
 **References**
-**Appendices:** A. Research protocol · B. Boundary test · C. Case evidence registers · D. Coding scheme
+**Appendices:** A. Research protocol · B. Boundary test · C. Case evidence registers and grids · D. Coding scheme
 
-Totale circa 80 pagine.
+Totale circa 85 pagine.
+
+### Grafici previsti
+
+Otto grafici, tutti costruibili con dati pubblici. Ogni grafico usa solo dati verificati.
+
+| # | Grafico | Capitolo | Cosa mostra | Dati |
+|---|---|---|---|---|
+| 1 | **Mappa del perimetro** | 1 | I circa 20 prodotti del boundary test su due assi (quanto è centrale la creazione dell'artefatto; mercato orizzontale o verticale), divisi in dentro, fuori e confine | Boundary test |
+| 2 | **Schema del business model prima/dopo** ⭐ | 2 e 5 | Le quattro caselle WHO/WHAT/HOW/ECONOMIC MODEL per ogni caso, con evidenziate quelle che cambiano tra 2022 e 2026 | Griglie dei casi |
+| 3 | **Schema dei due canali** | 3 | Utente, prodotto, agente interno e agente esterno (ChatGPT, Claude) che usa il prodotto | Concettuale |
+| 4 | **Cronologia delle mosse AI** ⭐ | 5 | Una riga per azienda, 2022-2026; ogni mossa è un punto colorato per strategia (pieno se disponibile a tutti, vuoto se in beta); una linea verticale separa fase generativa e fase agentic | Registri delle mosse |
+| 5 | **Evoluzione dei prezzi** | 5.5 | Prezzo del piano principale e quota di AI inclusa nel tempo (per esempio Canva Pro a 144, poi 180, poi di nuovo 144 dollari in sei settimane; i crediti di Figma) | Listini Wayback |
+| 6 | **Il costo dell'AI in Figma** | 5.5 | Crescita dei ricavi contro crescita del costo del venduto e margine lordo, trimestre per trimestre | Filing SEC di Figma |
+| 7 | **Mosse per anno e per tipo** | 6 | Barre impilate: quante mosse generative, agentic, di prezzo, di acquisizione per anno; mostra lo spostamento dal generativo all'agentic | Registri delle mosse |
+| 8 | **Matrice strategie x casi** ⭐ | 6 | La tabella dei profili trasformata in una mappa a colori: il risultato principale in un colpo d'occhio | Codifica dei casi |
+
+I tre da fare sicuramente: lo **schema prima/dopo** (2), la **cronologia** (4) e la **matrice a colori** (8). Gli altri sono un di più. Il grafico 7 trasforma la codifica qualitativa in numeri semplici, senza pretese statistiche.
 
 ---
 
@@ -251,7 +287,7 @@ Se possibile, mandare l'indice per mail 15-30 minuti prima, così lo si guarda i
 |---|---|---|
 | 1. Apertura | 2 min | Scuse per il silenzio, Berlino e il lavoro, obiettivo sessione di febbraio |
 | 2. Cosa è cambiato | 3 min | Le due frasi della sezione 0 |
-| 3. Indice | 10 min | Un capitolo alla volta, una riga ciascuno; fermarsi sui punti da validare (perimetro, metodo, casi) |
+| 3. Indice | 10 min | Le due parti e i capitoli, una riga ciascuno; fermarsi sui punti da validare (perimetro, metodo, casi); accennare ai grafici previsti |
 | 4. Decisioni | 7 min | Le domande della sezione 10 |
 | 5. Prossimi passi | 3 min | Calendario e prima consegna; chiudere con "le mando un riepilogo per mail" |
 
@@ -270,31 +306,31 @@ Se possibile, mandare l'indice per mail 15-30 minuti prima, così lo si guarda i
 3. **Unità di analisi.** Va bene analizzare Adobe Express e Grammarly come prodotti dentro un gruppo più grande? *Proposta: sì, disegno embedded con il gruppo come contesto.*
 4. **Metodo.** Basta un multiple-case documentale con fonti pubbliche e data di congelamento al 30 novembre, senza interviste? Una tesi ITEM richiede dati primari? *Proposta: sì, con 3-5 interviste di validazione solo se richieste.*
 5. **Framework.** Quale fonte citare per WHO/WHAT/HOW/ECONOMIC MODEL (Parolini? slide del corso)?
-6. **Calendario.** Protocollo e definizione entro metà novembre; capitoli 2-4 più caso pilota verso l'11 dicembre; bozza completa verso il 17 gennaio. Le date vanno bene?
+6. **Calendario.** Memo il 6 novembre; definizione (cap. 1) il 13 novembre; Parte I completa, capitoli 3 e 4 e una strategia scritta per intero l'11 dicembre; bozza completa il 15 gennaio. Le date vanno bene, e quanto tempo le serve per leggere la bozza?
 
 ---
 
 ## 11. Piano di 13 settimane (consegna indicativa 2 febbraio 2027, da verificare)
 
-Carico ipotizzato: 10-12 ore a settimana.
+Carico ipotizzato: 10-12 ore a settimana. Le consegne vere al prof sono tre (⭐), più il memo e le mail di riepilogo.
 
-| Sett. | Date | Attività | Milestone col prof |
+| Sett. | Date | Attività | Consegna al prof |
 |---|---|---|---|
-| 1 | 2-8 nov | Fissare RQ e casi dopo la call; foglio delle evidenze e literature register; snapshot Wayback dei listini 2022, 2024, 2026; aprire il PDF Bain | Memo di disegno (1 pagina) |
-| 2 | 9-15 nov | Definizione e boundary test (circa 20 prodotti) | Primo deliverable "Defining and Classifying..." (3-5 pagine) |
-| 3 | 16-22 nov | Letteratura su business model adaptation e agentic AI; Bain e IDC; domanda di laurea (finestra indicativa 17 nov - 17 dic) | |
-| 4 | 23-29 nov | Metodologia; caso pilota Figma codificato per tarare la griglia | |
-| 5 | 30 nov - 6 dic | Data di congelamento (30 nov); stesura Figma; raccolta Canva | |
-| 6 | 7-13 dic | Stesura Canva; baseline t0 nel capitolo 2 | Capitoli 2-4 + pilota (circa 11 dic) |
-| 7 | 14-20 dic | Adobe Express | |
-| 8 | 21-27 dic | Grammarly | |
-| 9 | 28 dic - 3 gen | Margine; scheda Gamma; caso di risposta debole solo se in anticipo | |
-| 10 | 4-10 gen | Analisi comparata: matrice strategie x casi, traiettorie, esito delle ipotesi | |
-| 11 | 11-17 gen | Discussione, conclusioni, introduzione | Bozza completa (circa 17 gen) |
-| 12 | 18-24 gen | Revisioni; verifica di tutte le citazioni e i DOI | |
-| 13 | 25-31 gen | Rilettura, formattazione, caricamento | Consegna entro il 2 feb |
+| 1 | 2-8 nov | Decisioni dopo la call; foglio delle evidenze e literature register; snapshot Wayback dei listini 2022, 2024, 2026; aprire il PDF Bain | Memo (ven 6 nov) |
+| 2 | 9-15 nov | Cap. 1: definizione e boundary test | ⭐ Consegna 1: cap. 1 (ven 13 nov) |
+| 3 | 16-22 nov | Cap. 3: letteratura su AI e business model; Bain e IDC; domanda di laurea (finestra indicativa 17 nov - 17 dic) | |
+| 4 | 23-29 nov | Cap. 4: metodo; griglia completa di Figma come pilota | |
+| 5 | 30 nov - 6 dic | Data di congelamento (30 nov); griglia di Canva; cap. 2 per Figma e Canva; prima strategia scritta per intero (5.2) | |
+| 6 | 7-13 dic | Griglia di Adobe Express; cap. 2 completo | ⭐ Consegna 2: Parte I, cap. 3, cap. 4 e una strategia (ven 11 dic) |
+| 7 | 14-20 dic | Griglia di Grammarly; scheda Gamma | |
+| 8 | 21-27 dic | Cap. 5: strategie 5.1, 5.3, 5.4 | |
+| 9 | 28 dic - 3 gen | Cap. 5: strategie 5.5, 5.6, 5.7; margine | |
+| 10 | 4-10 gen | Cap. 6: matrice, profili, confronto con Gamma; grafici | |
+| 11 | 11-15 gen | Conclusioni, introduzione, abstract | ⭐ Consegna 3: bozza completa (ven 15 gen) |
+| 12 | 18-24 gen | Revisioni sul riscontro del prof (atteso ven 22 gen); verifica di tutte le citazioni e i DOI | |
+| 13 | 25-31 gen | Rilettura, formattazione, caricamento | Consegna finale (mar 2 feb) |
 
-Regola di sicurezza: se a fine settimana 8 i quattro casi non sono scritti, le schede opzionali saltano e la settimana 9 diventa recupero.
+Regole di sicurezza: se a fine settimana 7 le quattro griglie non sono complete, la scheda Gamma si riduce a una pagina e la settimana 9 diventa recupero. Se l'11 dicembre il lavoro è in ritardo, mandare comunque la Parte I e una strategia: il prof deve vedere un esempio della Parte II prima delle feste.
 
 ---
 
