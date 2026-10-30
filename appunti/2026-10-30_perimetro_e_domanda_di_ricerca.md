@@ -312,6 +312,8 @@ Se possibile, mandare l'indice per mail 15-30 minuti prima, così lo si guarda i
 
 ## 11. Piano di 13 settimane (consegna indicativa 2 febbraio 2027, da verificare)
 
+> ⚠️ **Superato dopo la call del 30 ottobre:** il prof è impegnato fino al 13 novembre e ha chiesto un documento di impostazione (bibliografia, casi con business model prima dell'AI e strategie, struttura). Il calendario aggiornato è in `appunti/2026-10-30_call_relatore.md`.
+
 Carico ipotizzato: 10-12 ore a settimana. Le consegne vere al prof sono tre (⭐), più il memo e le mail di riepilogo.
 
 | Sett. | Date | Attività | Consegna al prof |
