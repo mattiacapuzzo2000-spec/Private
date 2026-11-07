@@ -1,8 +1,22 @@
 # Concepts from the course slides (Start-up Launch, prof. de Jaegher, 2025/26) useful for the thesis
 
-Source: lecture slides L02-L06 provided by the student (BEP analysis, pro-forma IS and BS, covering financial needs, market analysis, competitors analysis, value proposition). The WHO/WHAT/HOW/ECONOMIC MODEL framework itself is not in these decks (possibly in L01, not provided). The course builds on Parolini, C. (2021), *Business Planning: Turning an Idea into a Reality* (self-published, KDP; Italian original: *Business Planning. Dall'idea al progetto imprenditoriale*, Pearson Italia, 3rd ed. 2020).
+Source: lecture slides L01-L06 provided by the student (BP overview, BEP analysis, pro-forma IS and BS, covering financial needs, market analysis, competitors analysis, value proposition). The course builds on Parolini, C. (2021), *Business Planning: Turning an Idea into a Reality* (self-published, KDP; Italian original: *Business Planning. Dall'idea al progetto imprenditoriale*, Pearson Italia, 3rd ed. 2020).
 
 Paraphrased, not copied. Use these to connect the thesis to the professor's own framework.
+
+## 0. The framework: the entrepreneurial formula (L01, BP overview)
+The course presents "a basic business model: the entrepreneurial formula (or business idea)" with three components:
+- **TARGET MARKET: to whom?** (WHO): market segment, within the competitive system;
+- **VALUE PROPOSITION: what?** (WHAT): the product (offering) system;
+- **FIRM STRUCTURE: how?** (HOW): company structure and network;
+- plus **financial forecasts**, the economics that close the model (ECONOMIC MODEL).
+
+A further slide lists the business model components (market, competitors, offering, structure, communication, economics, financing) with the message: *it does not matter where you start from, what is important is fit*. The course then maps the formula onto the Business Model Canvas (Osterwalder and Pigneur), split into backstage (partners, activities, resources) and front end (value proposition, relationships, channels, segments), with cost structure and financial needs and revenue model at the bottom. Innovation sources discussed include socio-demographic, economic, political and technological trends.
+
+**Use in the thesis:**
+- Cite the framework as Parolini (2021) and the course; the "business idea" and "entrepreneurial formula" concepts go back to Normann (1977, *Management for Growth*) and to the Italian strategy tradition of Coda (the "formula imprenditoriale") [from memory, to verify].
+- **Fit** is the key link: an AI move that changes only one component is a feature; a business model change is one where several components change together and must re-fit. This is exactly the D0/D1/D2 depth rule of the coding scheme (D2 = linked changes in at least two dimensions), now expressed in the professor's own terms.
+- Agentic AI is a technological trend acting as an innovation source that breaks the existing fit.
 
 ## 1. Business models and cost structure (L02 pro-forma IS; L05 competitors)
 The slides distinguish three cost logics and the scalability they imply:
