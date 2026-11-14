@@ -40,7 +40,18 @@ function cell(text, width, header) {
 
 function table(rows) {
   const n = rows[0].length;
-  const widths = n === 5 ? [2838, 1700, 1700, 1700, 1700] : n === 4 ? [1500, 2100, 3400, 2638] : Array(n).fill(Math.floor(CONTENT_WIDTH / n));
+  let widths;
+  if (process.env.DOC_MODE === "chapter") {
+    const len = Array(n).fill(0);
+    rows.forEach((r) => r.forEach((c, j) => { len[j] += Math.min(c.length, 220); }));
+    const w = len.map((l) => Math.max(l, 1));
+    const tot = w.reduce((a, b) => a + b, 0);
+    widths = w.map((x) => Math.max(1100, Math.round((x / tot) * CONTENT_WIDTH)));
+    const diff = CONTENT_WIDTH - widths.reduce((a, b) => a + b, 0);
+    widths[widths.indexOf(Math.max(...widths))] += diff;
+  } else {
+    widths = n === 5 ? [2838, 1700, 1700, 1700, 1700] : n === 4 ? [1500, 2100, 3400, 2638] : Array(n).fill(Math.floor(CONTENT_WIDTH / n));
+  }
   const border = { style: BorderStyle.SINGLE, size: 4, color: "A6A6A6" };
   return new Table({
     width: { size: widths.reduce((a, b) => a + b, 0), type: WidthType.DXA },
@@ -54,7 +65,9 @@ function parse(md) {
   const lines = md.split("\n");
   const blocks = [];
   let i = 0;
+  let inRefs = false;
   while (i < lines.length) {
+    if (/^## References/.test(lines[i])) inRefs = true;
     const line = lines[i];
     if (line.trim() === "") { i++; continue; }
     if (line.startsWith("|")) {
@@ -72,6 +85,10 @@ function parse(md) {
       blocks.push(new Paragraph({ children: [new PageBreak()] }));
     } else if (line.startsWith("= ")) {
       blocks.push(new Paragraph({ spacing: { after: 100 }, indent: { left: 567, hanging: 567 }, children: runs(line.slice(2)) }));
+    } else if (line.startsWith("### ")) {
+      blocks.push(new Paragraph({ heading: HeadingLevel.HEADING_3, children: runs(line.slice(4)) }));
+    } else if (inRefs && !line.startsWith("#")) {
+      blocks.push(new Paragraph({ spacing: { after: 100 }, indent: { left: 567, hanging: 567 }, children: runs(line) }));
     } else if (line.startsWith("# ")) {
       blocks.push(new Paragraph({ heading: HeadingLevel.HEADING_1, children: runs(line.slice(2)) }));
     } else if (line.startsWith("## ")) {
@@ -111,6 +128,9 @@ const doc = new Document({
       { id: "Heading1", name: "Heading 1", basedOn: "Normal", next: "Normal", quickFormat: true,
         run: { font: FONT, size: 32, bold: true, color: "1F3864" },
         paragraph: { spacing: { before: 360, after: 160 }, keepNext: true, outlineLevel: 0 } },
+      { id: "Heading3", name: "Heading 3", basedOn: "Normal", next: "Normal", quickFormat: true,
+        run: { font: FONT, size: 23, bold: true, italics: true, color: "2F5496" },
+        paragraph: { spacing: { before: 200, after: 100 }, keepNext: true, outlineLevel: 2 } },
       { id: "Heading2", name: "Heading 2", basedOn: "Normal", next: "Normal", quickFormat: true,
         run: { font: FONT, size: 26, bold: true, color: "2F5496" },
         paragraph: { spacing: { before: 240, after: 120 }, keepNext: true, outlineLevel: 1 } },
@@ -121,16 +141,16 @@ const doc = new Document({
       style: { paragraph: { indent: { left: 540, hanging: 270 } } } }] }],
   },
   sections: [{
-    properties: { page: { margin: { top: 1134, bottom: 1134, left: 1134, right: 1134 } }, titlePage: true },
+    properties: { page: { margin: { top: 1134, bottom: 1134, left: 1134, right: 1134 } }, titlePage: process.env.DOC_MODE !== "chapter" },
     headers: {
-      default: new Header({ children: [new Paragraph({ alignment: AlignmentType.RIGHT, children: [new TextRun({ text: "Thesis setup document, M. Capuzzo", font: FONT, size: 16, color: "808080" })] })] }),
+      default: new Header({ children: [new Paragraph({ alignment: AlignmentType.RIGHT, children: [new TextRun({ text: process.env.DOC_HEADER || "Thesis setup document, M. Capuzzo", font: FONT, size: 16, color: "808080" })] })] }),
       first: new Header({ children: [new Paragraph({ children: [] })] }),
     },
     footers: {
       default: new Footer({ children: [new Paragraph({ alignment: AlignmentType.CENTER, children: [new TextRun({ children: [PageNumber.CURRENT], font: FONT, size: 18, color: "808080" })] })] }),
       first: new Footer({ children: [new Paragraph({ children: [] })] }),
     },
-    children: [...titlePage, ...parse(fs.readFileSync(inPath, "utf8"))],
+    children: [...(process.env.DOC_MODE === "chapter" ? [] : titlePage), ...parse(fs.readFileSync(inPath, "utf8"))],
   }],
 });
 
