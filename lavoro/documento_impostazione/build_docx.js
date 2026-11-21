@@ -115,7 +115,7 @@ const titlePage = [
   centered("MSc in Innovation and Technology Management", { run: { size: 22 } }),
   centered("Università Cattolica del Sacro Cuore, Milan", { run: { size: 22 }, after: 400 }),
   centered("Supervisor: Prof. Jean-François de Jaegher", { run: { size: 22 }, after: 1400 }),
-  centered("20 November 2026 (draft for discussion)", { run: { size: 22, color: "595959" } }),
+  centered(process.env.DOC_DATE || "20 November 2026 (draft for discussion)", { run: { size: 22, color: "595959" } }),
   new Paragraph({ children: [new PageBreak()] }),
 ];
 
